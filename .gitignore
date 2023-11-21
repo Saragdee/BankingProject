@@ -2,3 +2,5 @@
 /.idea/*
 /account_balances.txt
 /BankingProject.iml
+/logs/app.log
+/logs/*
