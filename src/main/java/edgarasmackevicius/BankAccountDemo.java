@@ -84,9 +84,11 @@ public class BankAccountDemo {
 
                     default:
                         System.out.println("Invalid choice. Please enter a number between 1 and 6.");
+                        logger.info("User entered an invalid choice " + choice);
                 }
             } catch (InputMismatchException e) {
                 System.out.println("Invalid input. Please enter a number.");
+                logger.info("User entered an invalid choice test");
                 scanner.nextLine();
             }
         }
